@@ -122,6 +122,15 @@ body{
 .media-extra{
     display: none;
 }
+.links{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.alink{
+    color: green;
+    margin-left: 40px;
+}
 @media (min-width:320px) and (max-width:480px){
     
     .first{

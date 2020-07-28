@@ -87,7 +87,15 @@
     right: 10px;
     bottom: 10px;
 }
-
+.links{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.alink{
+    color: green;
+    margin-left: 40px;
+}
 @media (min-width:320px) and (max-width:600px){
     *{
         margin: 0px;

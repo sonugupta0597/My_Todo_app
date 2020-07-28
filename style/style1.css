@@ -78,7 +78,15 @@ body{
     color: #4a3f35;
     font-size: 25px;
 }
-
+.links{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.alink{
+    color: green;
+    margin-left: 40px;
+}
 @media (min-width:320px) and (max-width:480px){
     
     .first{
