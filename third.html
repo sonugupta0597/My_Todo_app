@@ -4,99 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Third</title>
-    <link rel="stylesheet" href="style/style3.css">
+    <title>First</title>
+    <link rel="stylesheet" href="style/third.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <div class="first">
+    <div class="container">
         <div class="container1">
-            <div class="container11">
-                <h1>
-                    Tasks <span class="greyColor">Lists</span>
-                </h1>
-            </div>
-            <div class="container12">
-                <h2>
-                    <i class="fa fa-plus-circle " aria-hidden="true"></i>
-                    <span class="greyColor addList">AddList</span>
-                </h2>
-            </div>
-            
-        </div>
-        
-        <div class="container2">
-            <div class="card" >
-                  <h1 class="cardTitle">Trip To Paris</h1>
-                  <div class="mobile-view-none">
-
-                    <hr class="cardLine">
-                    <h1 class="cardResponse">
-                       <del>Completed Tasks</del> 
+            <div class="taskList-header">
+                <div class="tasklist-left">
+                    <h1>
+                        Task<span class="greyColor">List</span>
                     </h1>
-                    <div class="cardCheckBox">
-                      <input  type="checkbox" id="checkboxcard1"><label for="checkboxcard1" class="inputlabel">Pending Tasks</label>
-                    </div>
-
-                  </div>
-                  
-            </div>
-
-           <div class="card" >
-                  <h1 class="cardTitle">My Todo List 2</h1>
-                  <div class="mobile-view-none">
-
-                    <hr class="cardLine">
-                    <h1 class="cardResponse">
-                       <del>Completed Tasks</del> 
-                    </h1>
-                    <div class="cardCheckBox">
-                      <input  type="checkbox" id="checkboxcard1"><label for="checkboxcard1" class="inputlabel">Pending Tasks</label>
-                    </div>
-                    
-                  </div>
-                  
-            </div>
-
-            <div class="card" >
-                <h1 class="cardTitle">My Todo List 3</h1>
-                <div class="mobile-view-none">
-
-                  <hr class="cardLine">
-                  <h1 class="cardResponse">
-                     <del>Completed Tasks</del> 
-                  </h1>
-                  <div class="cardCheckBox">
-                    <input  type="checkbox" id="checkboxcard1"><label for="checkboxcard1" class="inputlabel">Pending Tasks</label>
-                  </div>
-                  
                 </div>
-                
-          </div>
-            
-            
+                <div class="tasklist-right">
+                    <h3>
+                        <i class="fa fa-plus-circle " aria-hidden="true"></i>
+                        <span class="greyColor addList">AddList</span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="card">
+                <h1 class="card-title">Trip To Paris</h1>
+                <div class="make-hide">
+
+                    <hr>
+                    <label for="" class="card-result"><del>Completed Task</del></label>
+                    <div class="card-checkbox">
+                        <input type="checkbox"> Pending Task
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="card">
+                <h1 class="card-title">Trip To Paris</h1>
+                <div class="make-hide">
+
+                    <hr>
+                    <label for="" class="card-result"><del>Completed Task</del></label>
+                    <div class="card-checkbox">
+                        <input type="checkbox"> Pending Task
+                    </div>
+
+                </div>
+            </div>
+            <div class="card">
+                <h1 class="card-title">Trip To Paris</h1>
+                <div class="make-hide">
+
+                    <hr>
+                    <label for="" class="card-result"><del>Completed Task</del></label>
+                    <div class="card-checkbox">
+                        <input type="checkbox"> Pending Task
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </div>
 
-    <form action="">
-        <div class="addListBlock">
-            <h1 class="addListBlock-text">Add New List</h1>
-            <input class="addListBlock-inputField" type="text">
-            <input class="addListBlock-button" type="submit" value="ADD">
-        </div>
-    </form>
+    <div class="addListItem">
+        <form action="#">
+            <h1 class="addListItem-text">Add new list</h1>
+            <input class="addListItem-input" type="text">
+            <input class="addListItem-btn" type="button" value="Add">
+        </form>
+    </div>
 
-    
-    <div class="links">
-        
-        <a class="alink" href="second.html">Back</a>
-        <a class="alink" href="fourth.html">Next_Page</a>
 
-      </div>
-
-    
 </body>
 
 </html>
