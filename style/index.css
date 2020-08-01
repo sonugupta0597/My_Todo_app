@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.taskList-header{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin: 150px auto 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.greyColor{
+    color: silver;
+    font-weight: 100;
+}
+.fa{
+    color: tomato;
+}
+.container2{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    height: 300px;
+    
+}
+.card{
+    border: 1px solid tomato;
+    width: 25%;
+    border-radius: 20px;
+    padding:2%;
+    height:100%;
+    text-align: center;
+}
+.card-title{
+    margin-bottom:10px ;
+    font-weight: 100;
+    color: tomato;
+}
+.card-result{
+    margin: 20px auto;
+    display: inline-block;
+    font-size: 22px;
+    color: red;
+    font-weight: 900;
+}
+.card-checkbox{
+    font-size: 25px;
+}
+@media (min-width:320px) and (max-width:480px) {
+    
+    .taskList-header{
+        width: 80%;
+        margin: 50px auto 10px;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content:  normal;
+        height: 300px;
+        align-items: center;
+        overflow: scroll;
+    }
+    .card{
+        border: 2px solid white;
+        width: 80%;
+        border-radius: 0px;
+        height: 50px;
+        text-align:left;
+        margin-top: 10px;
+        box-shadow: 2px 2px 5px ;
+        font-size: 15px;
+        color: thistle;
+    }
+    .card-title{
+        color: thistle;
+        padding-top: 10px;
+    }
+    .make-hide{
+        display:none;
+    }
+    .addList{
+        display: none;
+    }
+    .tasklist-left{
+           font-size:30px;
+
+    }
+}
