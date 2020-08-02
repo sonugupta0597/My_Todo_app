@@ -51,7 +51,7 @@
 .card-checkbox{
     font-size: 25px;
 }
-@media (min-width:320px) and (max-width:600px) {
+@media (min-width:320px) and (max-width:800px) {
     
     .taskList-header{
         width: 80%;
