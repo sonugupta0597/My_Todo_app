@@ -82,7 +82,7 @@ body {
     left: 35%;
     width: 30%;
     border: 1px solid tomato;
-    height: 30%;
+    height: 250px;
     text-align: center;
     display: none;
 }
@@ -198,7 +198,7 @@ body {
         top: 25%;
         left: 5%;
         width: 90%;
-        height: 40%;
+        height: 250px;
     }
     .addListItem-input {
         height: 20%;
