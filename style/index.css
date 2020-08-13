@@ -75,8 +75,14 @@ body {
     font-size: 25px;
 }
 
+.ContainerBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .addListItem {
-    position: absolute;
+    position: fixed;
     background-color: white;
     top: 30%;
     left: 35%;
@@ -155,7 +161,7 @@ body {
     margin-top: 10px;
 }
 
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width:320px) and (max-width:600px) {
     .taskList-header {
         width: 80%;
         margin: 50px auto 10px;
