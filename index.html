@@ -49,10 +49,11 @@
     </div>
 
     <div class="addListItem" id="addItem">
+        <span class="close" onclick="removeBlurEffect()">&times;</span>
         <form action="#">
             <h1 class="addListItem-text">Add new item</h1>
-            <input class="addListItem-input" type="text">
-            <input class="addListItem-btn" type="button" value="Add">
+            <input class="addListItem-input" type="text" id="addListItem-input1">
+            <input class="addListItem-btn" type="button" value="Add" onclick="addListItem()">
         </form>
     </div>
 
