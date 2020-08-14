@@ -161,7 +161,7 @@ body {
     margin-top: 10px;
 }
 
-@media (min-width:320px) and (max-width:600px) {
+@media (min-width:320px) and (max-width:700px) {
     .taskList-header {
         width: 80%;
         margin: 50px auto 10px;
